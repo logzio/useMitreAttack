@@ -10,11 +10,11 @@ A react hook getting simplified representation of mitre att&ck
 
 ## Usage
 ```javascript
-import { useMitreTags } from 'use-mitre-attack';
+import { useMitreAttack } from 'use-mitre-attack';
 
 
 const MyComponent() {
-  const { getTactics, getTechniques } = useMitreTags();
+  const { getTactics, getTechniques } = useMitreAttack();
 
   return (
     <div>

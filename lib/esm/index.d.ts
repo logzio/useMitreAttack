@@ -1,1 +1,1 @@
-export { useMitreTags } from './hooks/useMitreTags';
+export { useMitreAttack } from './hooks/useMitreAttack';
