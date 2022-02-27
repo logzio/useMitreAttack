@@ -1,0 +1,40 @@
+{
+  "name": "useMitreAttack",
+  "version": "1.0.0",
+  "description": "Simple representation of MITRE ATT&CK data",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [ "/lib" ],
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logzio/useMitreAttack.git"
+  },
+  "keywords": [
+    "mitre",
+    "attack",
+    "att&ck",
+    "react",
+    "hook"
+  ],
+  "author": "gal.angel@logz.io",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/logzio/useMitreAttack/issues"
+  },
+  "homepage": "https://github.com/logzio/useMitreAttack#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "react": "^17.0.2",
+    "typescript": "^4.5.5"
+  },
+  "volta": {
+    "node": "16.13.1",
+    "yarn": "1.22.10"
+  }
+}
