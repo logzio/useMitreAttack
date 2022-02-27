@@ -5,12 +5,12 @@
 </p>
 
 
-# useMitreTags
+# use-mitre-attack
 A react hook getting simplified representation of mitre att&ck
 
 ## Usage
 ```javascript
-import { useMitreTags } from 'useMitreTags';
+import { useMitreTags } from 'use-mitre-attack';
 
 
 const MyComponent() {

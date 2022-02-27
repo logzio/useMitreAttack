@@ -21,7 +21,7 @@ export type Technique = {
 type Tactics = Record<TacticId, Tactic>;
 type Techniques = Record<TechniqueId, Technique>;
 
-export type MitreTags = {
+export type Matrix = {
   tactics: Tactics;
   techniques: Techniques;
 };

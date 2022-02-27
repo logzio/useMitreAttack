@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { MitreTags, Tactic, TacticId, Technique, TechniqueId } from './useMitreTags.types';
+import { Matrix, Tactic, TacticId, Technique, TechniqueId } from './useMitreAttack.types';
 
 
-const loadJson = (): Promise<MitreTags> => import(`./mitre-attack-tags.json`).then(res => res.default);
+const loadJson = (): Promise<Matrix> => import(`./mitre-attack-enterprise.json`).then(res => res.default);
 
-export const useMitreTags = () => {
-  const [tags, setTags] = useState<MitreTags>({tactics:{},techniques:{}});
+export const useMitreAttack = () => {
+  const [tags, setTags] = useState<Matrix>({tactics:{},techniques:{}});
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState(null);
 

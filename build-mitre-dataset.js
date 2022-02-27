@@ -19,7 +19,7 @@
   const axios = require('axios');
 
   const OUTPUT_PATH = './__output__/';
-  const OUTPUT_FILE_NAME = 'mitre-attack-tags.json';
+  const OUTPUT_FILE_NAME = 'mitre-attack-enterprise.json';
   const DATA_URL = 'https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json';
 
   // Accessing the data from MITRE/CTI using HTTP request
