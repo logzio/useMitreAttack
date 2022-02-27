@@ -1,6 +1,6 @@
 {
   "name": "use-mitre-attack",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Simple representation of MITRE ATT&CK data",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -23,7 +23,7 @@
     "hook"
   ],
   "author": "gal.angel@logz.io",
-  "license": "Apache v2",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/logzio/useMitreAttack/issues"
   },
