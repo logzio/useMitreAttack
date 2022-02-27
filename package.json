@@ -1,5 +1,5 @@
 {
-  "name": "useMitreAttack",
+  "name": "use-mitre-attack",
   "version": "1.0.0",
   "description": "Simple representation of MITRE ATT&CK data",
   "main": "./lib/cjs/index.js",
