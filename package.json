@@ -1,6 +1,6 @@
 {
   "name": "use-mitre-attack",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Simple representation of MITRE ATT&CK data",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -33,13 +33,11 @@
   "devDependencies": {
     "@types/react": "^17.0.39",
     "react": "^17.0.2",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "axios": "^0.27.2"
   },
   "volta": {
     "node": "16.13.1",
     "yarn": "1.22.10"
-  },
-  "dependencies": {
-    "axios": "^0.27.2"
   }
 }
