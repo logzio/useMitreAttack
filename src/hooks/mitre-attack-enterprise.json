@@ -373,6 +373,7 @@
     "T1113": {
       "id": "T1113",
       "name": "Screen Capture",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1113",
       "relation": {
         "subTechniques": [],
@@ -384,6 +385,7 @@
     "T1037": {
       "id": "T1037",
       "name": "Boot or Logon Initialization Scripts",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1037",
       "relation": {
         "subTechniques": [
@@ -431,6 +433,7 @@
     "T1583": {
       "id": "T1583",
       "name": "Acquire Infrastructure",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1583",
       "relation": {
         "subTechniques": [
@@ -458,6 +461,7 @@
     "T1613": {
       "id": "T1613",
       "name": "Container and Resource Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1613",
       "relation": {
         "subTechniques": [],
@@ -496,6 +500,7 @@
     "T1592": {
       "id": "T1592",
       "name": "Gather Victim Host Information",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1592",
       "relation": {
         "subTechniques": [
@@ -566,6 +571,7 @@
     "T1003": {
       "id": "T1003",
       "name": "OS Credential Dumping",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1003",
       "relation": {
         "subTechniques": [
@@ -649,6 +655,7 @@
     "T1006": {
       "id": "T1006",
       "name": "Direct Volume Access",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1006",
       "relation": {
         "subTechniques": [],
@@ -735,6 +742,7 @@
     "T1123": {
       "id": "T1123",
       "name": "Audio Capture",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1123",
       "relation": {
         "subTechniques": [],
@@ -764,6 +772,7 @@
     "T1133": {
       "id": "T1133",
       "name": "External Remote Services",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1133",
       "relation": {
         "subTechniques": [],
@@ -785,6 +794,7 @@
     "T1539": {
       "id": "T1539",
       "name": "Steal Web Session Cookie",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1539",
       "relation": {
         "subTechniques": [],
@@ -859,6 +869,7 @@
     "T1578": {
       "id": "T1578",
       "name": "Modify Cloud Compute Infrastructure",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1578",
       "relation": {
         "subTechniques": [
@@ -875,6 +886,7 @@
     "T1069": {
       "id": "T1069",
       "name": "Permission Groups Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1069",
       "relation": {
         "subTechniques": [
@@ -890,6 +902,7 @@
     "T1114": {
       "id": "T1114",
       "name": "Email Collection",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1114",
       "relation": {
         "subTechniques": [
@@ -932,6 +945,7 @@
     "T1594": {
       "id": "T1594",
       "name": "Search Victim-Owned Websites",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1594",
       "relation": {
         "subTechniques": [],
@@ -1006,6 +1020,7 @@
     "T1561": {
       "id": "T1561",
       "name": "Disk Wipe",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1561",
       "relation": {
         "subTechniques": [
@@ -1047,6 +1062,7 @@
     "T1615": {
       "id": "T1615",
       "name": "Group Policy Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1615",
       "relation": {
         "subTechniques": [],
@@ -1067,6 +1083,7 @@
     "T1025": {
       "id": "T1025",
       "name": "Data from Removable Media",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1025",
       "relation": {
         "subTechniques": [],
@@ -1187,6 +1204,7 @@
     "T1600": {
       "id": "T1600",
       "name": "Weaken Encryption",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1600",
       "relation": {
         "subTechniques": [
@@ -1210,6 +1228,7 @@
     "T1489": {
       "id": "T1489",
       "name": "Service Stop",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1489",
       "relation": {
         "subTechniques": [],
@@ -1248,6 +1267,7 @@
     "T1564": {
       "id": "T1564",
       "name": "Hide Artifacts",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1564",
       "relation": {
         "subTechniques": [
@@ -1306,6 +1326,7 @@
     "T1080": {
       "id": "T1080",
       "name": "Taint Shared Content",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1080",
       "relation": {
         "subTechniques": [],
@@ -1452,6 +1473,7 @@
     "T1137": {
       "id": "T1137",
       "name": "Office Application Startup",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1137",
       "relation": {
         "subTechniques": [
@@ -1554,6 +1576,7 @@
     "T1115": {
       "id": "T1115",
       "name": "Clipboard Data",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1115",
       "relation": {
         "subTechniques": [],
@@ -1644,6 +1667,7 @@
     "T1530": {
       "id": "T1530",
       "name": "Data from Cloud Storage Object",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1530",
       "relation": {
         "subTechniques": [],
@@ -1673,6 +1697,7 @@
     "T1135": {
       "id": "T1135",
       "name": "Network Share Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1135",
       "relation": {
         "subTechniques": [],
@@ -1684,6 +1709,7 @@
     "T1120": {
       "id": "T1120",
       "name": "Peripheral Device Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1120",
       "relation": {
         "subTechniques": [],
@@ -1752,6 +1778,7 @@
     "T1071": {
       "id": "T1071",
       "name": "Application Layer Protocol",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1071",
       "relation": {
         "subTechniques": [
@@ -1941,6 +1968,7 @@
     "T1091": {
       "id": "T1091",
       "name": "Replication Through Removable Media",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1091",
       "relation": {
         "subTechniques": [],
@@ -1986,6 +2014,7 @@
     "T1562": {
       "id": "T1562",
       "name": "Impair Defenses",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1562",
       "relation": {
         "subTechniques": [
@@ -2053,6 +2082,7 @@
     "T1558": {
       "id": "T1558",
       "name": "Steal or Forge Kerberos Tickets",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1558",
       "relation": {
         "subTechniques": [
@@ -2069,6 +2099,7 @@
     "T1555": {
       "id": "T1555",
       "name": "Credentials from Password Stores",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1555",
       "relation": {
         "subTechniques": [
@@ -2086,6 +2117,7 @@
     "T1567": {
       "id": "T1567",
       "name": "Exfiltration Over Web Service",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1567",
       "relation": {
         "subTechniques": [
@@ -2168,6 +2200,7 @@
     "T1552": {
       "id": "T1552",
       "name": "Unsecured Credentials",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1552",
       "relation": {
         "subTechniques": [
@@ -2205,6 +2238,7 @@
     "T1055": {
       "id": "T1055",
       "name": "Process Injection",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1055",
       "relation": {
         "subTechniques": [
@@ -2293,6 +2327,7 @@
     "T1611": {
       "id": "T1611",
       "name": "Escape to Host",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1611",
       "relation": {
         "subTechniques": [],
@@ -2370,6 +2405,7 @@
     "T1029": {
       "id": "T1029",
       "name": "Scheduled Transfer",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1029",
       "relation": {
         "subTechniques": [],
@@ -2390,6 +2426,7 @@
     "T1525": {
       "id": "T1525",
       "name": "Implant Internal Image",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1525",
       "relation": {
         "subTechniques": [],
@@ -2401,6 +2438,7 @@
     "T1572": {
       "id": "T1572",
       "name": "Protocol Tunneling",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1572",
       "relation": {
         "subTechniques": [],
@@ -2448,6 +2486,7 @@
     "T1550": {
       "id": "T1550",
       "name": "Use Alternate Authentication Material",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1550",
       "relation": {
         "subTechniques": [
@@ -2474,6 +2513,7 @@
     "T1011": {
       "id": "T1011",
       "name": "Exfiltration Over Other Network Medium",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1011",
       "relation": {
         "subTechniques": [
@@ -2521,6 +2561,7 @@
     "T1560": {
       "id": "T1560",
       "name": "Archive Collected Data",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1560",
       "relation": {
         "subTechniques": [
@@ -2545,6 +2586,7 @@
     "T1185": {
       "id": "T1185",
       "name": "Browser Session Hijacking",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1185",
       "relation": {
         "subTechniques": [],
@@ -2556,6 +2598,7 @@
     "T1021": {
       "id": "T1021",
       "name": "Remote Services",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1021",
       "relation": {
         "subTechniques": [
@@ -2592,6 +2635,7 @@
     "T1596": {
       "id": "T1596",
       "name": "Search Open Technical Databases",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1596",
       "relation": {
         "subTechniques": [
@@ -2609,6 +2653,7 @@
     "T1207": {
       "id": "T1207",
       "name": "Rogue Domain Controller",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1207",
       "relation": {
         "subTechniques": [],
@@ -2629,6 +2674,7 @@
     "T1610": {
       "id": "T1610",
       "name": "Deploy Container",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1610",
       "relation": {
         "subTechniques": [],
@@ -2641,6 +2687,7 @@
     "T1112": {
       "id": "T1112",
       "name": "Modify Registry",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1112",
       "relation": {
         "subTechniques": [],
@@ -2691,6 +2738,7 @@
     "T1491": {
       "id": "T1491",
       "name": "Defacement",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1491",
       "relation": {
         "subTechniques": [
@@ -2705,6 +2753,7 @@
     "T1535": {
       "id": "T1535",
       "name": "Unused/Unsupported Cloud Regions",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1535",
       "relation": {
         "subTechniques": [],
@@ -2725,6 +2774,7 @@
     "T1563": {
       "id": "T1563",
       "name": "Remote Service Session Hijacking",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1563",
       "relation": {
         "subTechniques": [
@@ -2766,6 +2816,7 @@
     "T1217": {
       "id": "T1217",
       "name": "Browser Bookmark Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1217",
       "relation": {
         "subTechniques": [],
@@ -2858,6 +2909,7 @@
     "T1092": {
       "id": "T1092",
       "name": "Communication Through Removable Media",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1092",
       "relation": {
         "subTechniques": [],
@@ -2896,6 +2948,7 @@
     "T1222": {
       "id": "T1222",
       "name": "File and Directory Permissions Modification",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1222",
       "relation": {
         "subTechniques": [
@@ -2919,6 +2972,7 @@
     "T1595": {
       "id": "T1595",
       "name": "Active Scanning",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1595",
       "relation": {
         "subTechniques": [
@@ -2934,6 +2988,7 @@
     "T1548": {
       "id": "T1548",
       "name": "Abuse Elevation Control Mechanism",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1548",
       "relation": {
         "subTechniques": [
@@ -3086,6 +3141,7 @@
     "T1125": {
       "id": "T1125",
       "name": "Video Capture",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1125",
       "relation": {
         "subTechniques": [],
@@ -3147,6 +3203,7 @@
     "T1087": {
       "id": "T1087",
       "name": "Account Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1087",
       "relation": {
         "subTechniques": [
@@ -3163,6 +3220,7 @@
     "T1090": {
       "id": "T1090",
       "name": "Proxy",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1090",
       "relation": {
         "subTechniques": [
@@ -3307,6 +3365,7 @@
     "T1070": {
       "id": "T1070",
       "name": "Indicator Removal on Host",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1070",
       "relation": {
         "subTechniques": [
@@ -3370,6 +3429,7 @@
     "T1609": {
       "id": "T1609",
       "name": "Container Administration Command",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1609",
       "relation": {
         "subTechniques": [],
@@ -3393,6 +3453,7 @@
     "T1568": {
       "id": "T1568",
       "name": "Dynamic Resolution",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1568",
       "relation": {
         "subTechniques": [
@@ -3465,6 +3526,7 @@
     "T1074": {
       "id": "T1074",
       "name": "Data Staged",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1074",
       "relation": {
         "subTechniques": [
@@ -3556,6 +3618,7 @@
     "T1612": {
       "id": "T1612",
       "name": "Build Image on Host",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1612",
       "relation": {
         "subTechniques": [],
@@ -3585,6 +3648,7 @@
     "T1586": {
       "id": "T1586",
       "name": "Compromise Accounts",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1586",
       "relation": {
         "subTechniques": [
@@ -3653,6 +3717,7 @@
     "T1497": {
       "id": "T1497",
       "name": "Virtualization/Sandbox Evasion",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1497",
       "relation": {
         "subTechniques": [
@@ -3669,6 +3734,7 @@
     "T1102": {
       "id": "T1102",
       "name": "Web Service",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1102",
       "relation": {
         "subTechniques": [
@@ -3720,6 +3786,7 @@
     "T1608": {
       "id": "T1608",
       "name": "Stage Capabilities",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1608",
       "relation": {
         "subTechniques": [
@@ -3746,6 +3813,7 @@
     "T1104": {
       "id": "T1104",
       "name": "Multi-Stage Channels",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1104",
       "relation": {
         "subTechniques": [],
@@ -3928,6 +3996,7 @@
     "T1057": {
       "id": "T1057",
       "name": "Process Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1057",
       "relation": {
         "subTechniques": [],
@@ -3975,6 +4044,7 @@
     "T1072": {
       "id": "T1072",
       "name": "Software Deployment Tools",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1072",
       "relation": {
         "subTechniques": [],
@@ -3987,6 +4057,7 @@
     "T1041": {
       "id": "T1041",
       "name": "Exfiltration Over C2 Channel",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1041",
       "relation": {
         "subTechniques": [],
@@ -4007,6 +4078,7 @@
     "T1591": {
       "id": "T1591",
       "name": "Gather Victim Org Information",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1591",
       "relation": {
         "subTechniques": [
@@ -4023,6 +4095,7 @@
     "T1606": {
       "id": "T1606",
       "name": "Forge Web Credentials",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1606",
       "relation": {
         "subTechniques": [
@@ -4049,6 +4122,7 @@
     "T1554": {
       "id": "T1554",
       "name": "Compromise Client Software Binary",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1554",
       "relation": {
         "subTechniques": [],
@@ -4126,6 +4200,7 @@
     "T1590": {
       "id": "T1590",
       "name": "Gather Victim Network Information",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1590",
       "relation": {
         "subTechniques": [
@@ -4144,6 +4219,7 @@
     "T1210": {
       "id": "T1210",
       "name": "Exploitation of Remote Services",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1210",
       "relation": {
         "subTechniques": [],
@@ -4155,6 +4231,7 @@
     "T1534": {
       "id": "T1534",
       "name": "Internal Spearphishing",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1534",
       "relation": {
         "subTechniques": [],
@@ -4184,6 +4261,7 @@
     "T1199": {
       "id": "T1199",
       "name": "Trusted Relationship",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1199",
       "relation": {
         "subTechniques": [],
@@ -4213,6 +4291,7 @@
     "T1593": {
       "id": "T1593",
       "name": "Search Open Websites/Domains",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1593",
       "relation": {
         "subTechniques": [
@@ -4245,6 +4324,7 @@
     "T1048": {
       "id": "T1048",
       "name": "Exfiltration Over Alternative Protocol",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1048",
       "relation": {
         "subTechniques": [
@@ -4305,6 +4385,7 @@
     "T1597": {
       "id": "T1597",
       "name": "Search Closed Sources",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1597",
       "relation": {
         "subTechniques": [
@@ -4328,6 +4409,7 @@
     "T1566": {
       "id": "T1566",
       "name": "Phishing",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1566",
       "relation": {
         "subTechniques": [
@@ -4439,6 +4521,7 @@
     "T1559": {
       "id": "T1559",
       "name": "Inter-Process Communication",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1559",
       "relation": {
         "subTechniques": [
@@ -4454,6 +4537,7 @@
     "T1001": {
       "id": "T1001",
       "name": "Data Obfuscation",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1001",
       "relation": {
         "subTechniques": [
@@ -4469,6 +4553,7 @@
     "T1039": {
       "id": "T1039",
       "name": "Data from Network Shared Drive",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1039",
       "relation": {
         "subTechniques": [],
@@ -4489,6 +4574,7 @@
     "T1601": {
       "id": "T1601",
       "name": "Modify System Image",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1601",
       "relation": {
         "subTechniques": [
@@ -4568,6 +4654,7 @@
     "T1571": {
       "id": "T1571",
       "name": "Non-Standard Port",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1571",
       "relation": {
         "subTechniques": [],
@@ -4597,6 +4684,7 @@
     "T1068": {
       "id": "T1068",
       "name": "Exploitation for Privilege Escalation",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1068",
       "relation": {
         "subTechniques": [],
@@ -4705,6 +4793,7 @@
     "T1546": {
       "id": "T1546",
       "name": "Event Triggered Execution",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1546",
       "relation": {
         "subTechniques": [
@@ -4742,6 +4831,7 @@
     "T1187": {
       "id": "T1187",
       "name": "Forced Authentication",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1187",
       "relation": {
         "subTechniques": [],
@@ -4825,6 +4915,7 @@
     "T1573": {
       "id": "T1573",
       "name": "Encrypted Channel",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1573",
       "relation": {
         "subTechniques": [
@@ -4866,6 +4957,7 @@
     "T1056": {
       "id": "T1056",
       "name": "Input Capture",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1056",
       "relation": {
         "subTechniques": [
@@ -5042,6 +5134,7 @@
     "T1095": {
       "id": "T1095",
       "name": "Non-Application Layer Protocol",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1095",
       "relation": {
         "subTechniques": [],
@@ -5080,6 +5173,7 @@
     "T1012": {
       "id": "T1012",
       "name": "Query Registry",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1012",
       "relation": {
         "subTechniques": [],
@@ -5091,6 +5185,7 @@
     "T1030": {
       "id": "T1030",
       "name": "Data Transfer Size Limits",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1030",
       "relation": {
         "subTechniques": [],
@@ -5173,6 +5268,7 @@
     "T1614": {
       "id": "T1614",
       "name": "System Location Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1614",
       "relation": {
         "subTechniques": [
@@ -5195,6 +5291,7 @@
     "T1197": {
       "id": "T1197",
       "name": "BITS Jobs",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1197",
       "relation": {
         "subTechniques": [],
@@ -5279,6 +5376,7 @@
     "T1132": {
       "id": "T1132",
       "name": "Data Encoding",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1132",
       "relation": {
         "subTechniques": [
@@ -5302,6 +5400,7 @@
     "T1598": {
       "id": "T1598",
       "name": "Phishing for Information",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1598",
       "relation": {
         "subTechniques": [
@@ -5329,6 +5428,7 @@
     "T1585": {
       "id": "T1585",
       "name": "Establish Accounts",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1585",
       "relation": {
         "subTechniques": [
@@ -5343,6 +5443,7 @@
     "T1588": {
       "id": "T1588",
       "name": "Obtain Capabilities",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1588",
       "relation": {
         "subTechniques": [
@@ -5415,6 +5516,7 @@
     "T1569": {
       "id": "T1569",
       "name": "System Services",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1569",
       "relation": {
         "subTechniques": [
@@ -5502,6 +5604,7 @@
     "T1505": {
       "id": "T1505",
       "name": "Server Software Component",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1505",
       "relation": {
         "subTechniques": [
@@ -5519,6 +5622,7 @@
     "T1485": {
       "id": "T1485",
       "name": "Data Destruction",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1485",
       "relation": {
         "subTechniques": [],
@@ -5587,6 +5691,7 @@
     "T1189": {
       "id": "T1189",
       "name": "Drive-by Compromise",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1189",
       "relation": {
         "subTechniques": [],
@@ -5598,6 +5703,7 @@
     "T1498": {
       "id": "T1498",
       "name": "Network Denial of Service",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1498",
       "relation": {
         "subTechniques": [
@@ -5621,6 +5727,7 @@
     "T1221": {
       "id": "T1221",
       "name": "Template Injection",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1221",
       "relation": {
         "subTechniques": [],
@@ -5660,6 +5767,7 @@
     "T1111": {
       "id": "T1111",
       "name": "Multi-Factor Authentication Interception",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1111",
       "relation": {
         "subTechniques": [],
@@ -5725,6 +5833,7 @@
     "T1136": {
       "id": "T1136",
       "name": "Create Account",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1136",
       "relation": {
         "subTechniques": [
@@ -5758,6 +5867,7 @@
     "T1526": {
       "id": "T1526",
       "name": "Cloud Service Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1526",
       "relation": {
         "subTechniques": [],
@@ -5802,6 +5912,7 @@
     "T1518": {
       "id": "T1518",
       "name": "Software Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1518",
       "relation": {
         "subTechniques": [
@@ -5815,6 +5926,7 @@
     "T1538": {
       "id": "T1538",
       "name": "Cloud Service Dashboard",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1538",
       "relation": {
         "subTechniques": [],
@@ -5875,6 +5987,7 @@
     "T1052": {
       "id": "T1052",
       "name": "Exfiltration Over Physical Medium",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1052",
       "relation": {
         "subTechniques": [
@@ -5963,6 +6076,7 @@
     "T1484": {
       "id": "T1484",
       "name": "Domain Policy Modification",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1484",
       "relation": {
         "subTechniques": [
@@ -6035,6 +6149,7 @@
     "T1587": {
       "id": "T1587",
       "name": "Develop Capabilities",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1587",
       "relation": {
         "subTechniques": [
@@ -6132,6 +6247,7 @@
     "T1008": {
       "id": "T1008",
       "name": "Fallback Channels",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1008",
       "relation": {
         "subTechniques": [],
@@ -6170,6 +6286,7 @@
     "T1124": {
       "id": "T1124",
       "name": "System Time Discovery",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1124",
       "relation": {
         "subTechniques": [],
@@ -6208,6 +6325,7 @@
     "T1556": {
       "id": "T1556",
       "name": "Modify Authentication Process",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1556",
       "relation": {
         "subTechniques": [
@@ -6435,6 +6553,7 @@
     "T1529": {
       "id": "T1529",
       "name": "System Shutdown/Reboot",
+      "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1529",
       "relation": {
         "subTechniques": [],

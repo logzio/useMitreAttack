@@ -68,17 +68,16 @@
   // Techniques map into tactics by use of their kill_chain_phases property. Where the kill_chain_name is mitre-attack
   // the phase_name corresponds to the x_mitre_shortname property of an x-mitre-tactic object.
   const getTacticsOfTechnique = (technique, tactics) => {
-    const tacticXNames = technique.kill_chain_phases
+    return technique.kill_chain_phases
       .filter(p => p.kill_chain_name === 'mitre-attack')
       .map(p => getExternalReference(tactics.find(t => p.phase_name === t.x_mitre_shortname)).id);
-
-    return tacticXNames;
   };
 
   const getTechniqueBaseProperties = technique => {
-    const isSubTechnique = technique.x_mitre_is_subtechnique;
-    const { name } = technique;
     const { id, url } = getExternalReference(technique);
+    // TEMP fix (id.indexOf('.') > 0) for missing x_mitre_is_subtechnique keys
+    const isSubTechnique = technique.x_mitre_is_subtechnique || id.indexOf('.') > 0;
+    const { name } = technique;
 
     return { id, name, isSubTechnique, url };
   };
