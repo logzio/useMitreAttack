@@ -1,6 +1,6 @@
 {
   "name": "use-mitre-attack",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Simple representation of MITRE ATT&CK data",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
