@@ -12,6 +12,7 @@
         "T1558",
         "T1555",
         "T1552",
+        "T1649",
         "T1528",
         "T1606",
         "T1621",
@@ -39,7 +40,9 @@
         "T1072",
         "T1559",
         "T1203",
-        "T1569"
+        "T1569",
+        "T1651",
+        "T1648"
       ]
     },
     "TA0040": {
@@ -198,6 +201,7 @@
         "T1613",
         "T1069",
         "T1615",
+        "T1652",
         "T1007",
         "T1040",
         "T1135",
@@ -261,6 +265,7 @@
         "T1608",
         "T1585",
         "T1588",
+        "T1650",
         "T1587"
       ]
     },
@@ -340,6 +345,15 @@
         "technique": "T1053"
       }
     },
+    "T1205.002": {
+      "id": "T1205.002",
+      "name": "Socket Filters",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1205/002",
+      "relation": {
+        "technique": "T1205"
+      }
+    },
     "T1560.001": {
       "id": "T1560.001",
       "name": "Archive via Utility",
@@ -380,6 +394,15 @@
         "tactics": [
           "TA0009"
         ]
+      }
+    },
+    "T1027.011": {
+      "id": "T1027.011",
+      "name": "Fileless Storage",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1027/011",
+      "relation": {
+        "technique": "T1027"
       }
     },
     "T1037": {
@@ -437,6 +460,8 @@
       "url": "https://attack.mitre.org/techniques/T1583",
       "relation": {
         "subTechniques": [
+          "T1583.007",
+          "T1583.008",
           "T1583.002",
           "T1583.005",
           "T1583.001",
@@ -470,6 +495,15 @@
         ]
       }
     },
+    "T1583.007": {
+      "id": "T1583.007",
+      "name": "Serverless",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1583/007",
+      "relation": {
+        "technique": "T1583"
+      }
+    },
     "T1132.001": {
       "id": "T1132.001",
       "name": "Standard Encoding",
@@ -477,6 +511,15 @@
       "url": "https://attack.mitre.org/techniques/T1132/001",
       "relation": {
         "technique": "T1132"
+      }
+    },
+    "T1027.009": {
+      "id": "T1027.009",
+      "name": "Embedded Payloads",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1027/009",
+      "relation": {
+        "technique": "T1027"
       }
     },
     "T1556.003": {
@@ -883,6 +926,15 @@
         ]
       }
     },
+    "T1583.008": {
+      "id": "T1583.008",
+      "name": "Malvertising",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1583/008",
+      "relation": {
+        "technique": "T1583"
+      }
+    },
     "T1069": {
       "id": "T1069",
       "name": "Permission Groups Discovery",
@@ -1225,6 +1277,15 @@
         "technique": "T1606"
       }
     },
+    "T1036.008": {
+      "id": "T1036.008",
+      "name": "Masquerade File Type",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1036/008",
+      "relation": {
+        "technique": "T1036"
+      }
+    },
     "T1489": {
       "id": "T1489",
       "name": "Service Stop",
@@ -1244,6 +1305,18 @@
       "url": "https://attack.mitre.org/techniques/T1587/001",
       "relation": {
         "technique": "T1587"
+      }
+    },
+    "T1652": {
+      "id": "T1652",
+      "name": "Device Driver Discovery",
+      "isSubTechnique": false,
+      "url": "https://attack.mitre.org/techniques/T1652",
+      "relation": {
+        "subTechniques": [],
+        "tactics": [
+          "TA0007"
+        ]
       }
     },
     "T1087.002": {
@@ -1543,6 +1616,15 @@
         "technique": "T1566"
       }
     },
+    "T1027.008": {
+      "id": "T1027.008",
+      "name": "Stripped Payloads",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1027/008",
+      "relation": {
+        "technique": "T1027"
+      }
+    },
     "T1559.001": {
       "id": "T1559.001",
       "name": "Component Object Model",
@@ -1666,7 +1748,7 @@
     },
     "T1530": {
       "id": "T1530",
-      "name": "Data from Cloud Storage Object",
+      "name": "Data from Cloud Storage",
       "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1530",
       "relation": {
@@ -1917,6 +1999,15 @@
         ]
       }
     },
+    "T1070.007": {
+      "id": "T1070.007",
+      "name": "Clear Network Connection History and Configurations",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1070/007",
+      "relation": {
+        "technique": "T1070"
+      }
+    },
     "T1558.004": {
       "id": "T1558.004",
       "name": "AS-REP Roasting",
@@ -2026,11 +2117,21 @@
           "T1562.010",
           "T1562.003",
           "T1562.001",
+          "T1562.011",
           "T1562.008"
         ],
         "tactics": [
           "TA0005"
         ]
+      }
+    },
+    "T1586.003": {
+      "id": "T1586.003",
+      "name": "Cloud Accounts",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1586/003",
+      "relation": {
+        "technique": "T1586"
       }
     },
     "T1586.002": {
@@ -2122,6 +2223,7 @@
       "relation": {
         "subTechniques": [
           "T1567.001",
+          "T1567.003",
           "T1567.002"
         ],
         "tactics": [
@@ -2177,6 +2279,7 @@
         "subTechniques": [
           "T1036.007",
           "T1036.005",
+          "T1036.008",
           "T1036.002",
           "T1036.004",
           "T1036.001",
@@ -2210,6 +2313,7 @@
           "T1552.003",
           "T1552.001",
           "T1552.006",
+          "T1552.008",
           "T1552.007"
         ],
         "tactics": [
@@ -2224,6 +2328,15 @@
       "url": "https://attack.mitre.org/techniques/T1547/010",
       "relation": {
         "technique": "T1547"
+      }
+    },
+    "T1070.008": {
+      "id": "T1070.008",
+      "name": "Clear Mailbox Data",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1070/008",
+      "relation": {
+        "technique": "T1070"
       }
     },
     "T1037.002": {
@@ -2268,6 +2381,7 @@
       "url": "https://attack.mitre.org/techniques/T1205",
       "relation": {
         "subTechniques": [
+          "T1205.002",
           "T1205.001"
         ],
         "tactics": [
@@ -2607,6 +2721,7 @@
           "T1021.002",
           "T1021.006",
           "T1021.003",
+          "T1021.007",
           "T1021.001"
         ],
         "tactics": [
@@ -2623,6 +2738,15 @@
         "technique": "T1071"
       }
     },
+    "T1556.007": {
+      "id": "T1556.007",
+      "name": "Hybrid Identity",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1556/007",
+      "relation": {
+        "technique": "T1556"
+      }
+    },
     "T1595.002": {
       "id": "T1595.002",
       "name": "Vulnerability Scanning",
@@ -2630,6 +2754,15 @@
       "url": "https://attack.mitre.org/techniques/T1595/002",
       "relation": {
         "technique": "T1595"
+      }
+    },
+    "T1059.009": {
+      "id": "T1059.009",
+      "name": "Cloud API",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1059/009",
+      "relation": {
+        "technique": "T1059"
       }
     },
     "T1596": {
@@ -2815,7 +2948,7 @@
     },
     "T1217": {
       "id": "T1217",
-      "name": "Browser Bookmark Discovery",
+      "name": "Browser Information Discovery",
       "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1217",
       "relation": {
@@ -3182,6 +3315,15 @@
         "technique": "T1578"
       }
     },
+    "T1593.003": {
+      "id": "T1593.003",
+      "name": "Code Repositories",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1593/003",
+      "relation": {
+        "technique": "T1593"
+      }
+    },
     "T1574.005": {
       "id": "T1574.005",
       "name": "Executable Installer File Permissions Weakness",
@@ -3243,6 +3385,7 @@
         "subTechniques": [
           "T1059.007",
           "T1059.002",
+          "T1059.009",
           "T1059.008",
           "T1059.001",
           "T1059.004",
@@ -3364,16 +3507,19 @@
     },
     "T1070": {
       "id": "T1070",
-      "name": "Indicator Removal on Host",
+      "name": "Indicator Removal",
       "isSubTechnique": false,
       "url": "https://attack.mitre.org/techniques/T1070",
       "relation": {
         "subTechniques": [
           "T1070.002",
+          "T1070.007",
           "T1070.003",
+          "T1070.008",
           "T1070.006",
           "T1070.001",
           "T1070.005",
+          "T1070.009",
           "T1070.004"
         ],
         "tactics": [
@@ -3538,6 +3684,18 @@
         ]
       }
     },
+    "T1649": {
+      "id": "T1649",
+      "name": "Steal or Forge Authentication Certificates",
+      "isSubTechnique": false,
+      "url": "https://attack.mitre.org/techniques/T1649",
+      "relation": {
+        "subTechniques": [],
+        "tactics": [
+          "TA0006"
+        ]
+      }
+    },
     "T1098.005": {
       "id": "T1098.005",
       "name": "Device Registration",
@@ -3570,6 +3728,7 @@
           "T1584.005",
           "T1584.006",
           "T1584.002",
+          "T1584.007",
           "T1584.004",
           "T1584.001"
         ],
@@ -3653,6 +3812,7 @@
       "relation": {
         "subTechniques": [
           "T1586.001",
+          "T1586.003",
           "T1586.002"
         ],
         "tactics": [
@@ -3794,7 +3954,8 @@
           "T1608.001",
           "T1608.002",
           "T1608.005",
-          "T1608.003"
+          "T1608.003",
+          "T1608.006"
         ],
         "tactics": [
           "TA0042"
@@ -3873,6 +4034,15 @@
       "url": "https://attack.mitre.org/techniques/T1567/001",
       "relation": {
         "technique": "T1567"
+      }
+    },
+    "T1021.007": {
+      "id": "T1021.007",
+      "name": "Cloud Services",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1021/007",
+      "relation": {
+        "technique": "T1021"
       }
     },
     "T1205.001": {
@@ -4014,6 +4184,15 @@
         "technique": "T1562"
       }
     },
+    "T1556.008": {
+      "id": "T1556.008",
+      "name": "Network Provider DLL",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1556/008",
+      "relation": {
+        "technique": "T1556"
+      }
+    },
     "T1546.003": {
       "id": "T1546.003",
       "name": "Windows Management Instrumentation Event Subscription",
@@ -4039,6 +4218,15 @@
       "url": "https://attack.mitre.org/techniques/T1497/002",
       "relation": {
         "technique": "T1497"
+      }
+    },
+    "T1585.003": {
+      "id": "T1585.003",
+      "name": "Cloud Accounts",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1585/003",
+      "relation": {
+        "technique": "T1585"
       }
     },
     "T1072": {
@@ -4129,6 +4317,15 @@
         "tactics": [
           "TA0003"
         ]
+      }
+    },
+    "T1552.008": {
+      "id": "T1552.008",
+      "name": "Chat Messages",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1552/008",
+      "relation": {
+        "technique": "T1552"
       }
     },
     "T1059.001": {
@@ -4296,6 +4493,7 @@
       "relation": {
         "subTechniques": [
           "T1593.002",
+          "T1593.003",
           "T1593.001"
         ],
         "tactics": [
@@ -4730,16 +4928,30 @@
       "url": "https://attack.mitre.org/techniques/T1027",
       "relation": {
         "subTechniques": [
+          "T1027.011",
+          "T1027.009",
+          "T1027.008",
           "T1027.001",
           "T1027.005",
           "T1027.003",
           "T1027.004",
           "T1027.006",
-          "T1027.002"
+          "T1027.010",
+          "T1027.002",
+          "T1027.007"
         ],
         "tactics": [
           "TA0005"
         ]
+      }
+    },
+    "T1556.006": {
+      "id": "T1556.006",
+      "name": "Multi-Factor Authentication",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1556/006",
+      "relation": {
+        "technique": "T1556"
       }
     },
     "T1114.002": {
@@ -4811,6 +5023,7 @@
           "T1546.015",
           "T1546.010",
           "T1546.002",
+          "T1546.016",
           "T1546.007"
         ],
         "tactics": [
@@ -4945,6 +5158,15 @@
         "technique": "T1218"
       }
     },
+    "T1567.003": {
+      "id": "T1567.003",
+      "name": "Exfiltration to Text Storage Sites",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1567/003",
+      "relation": {
+        "technique": "T1567"
+      }
+    },
     "T1592.002": {
       "id": "T1592.002",
       "name": "Software",
@@ -5054,6 +5276,15 @@
       "url": "https://attack.mitre.org/techniques/T1595/003",
       "relation": {
         "technique": "T1595"
+      }
+    },
+    "T1562.011": {
+      "id": "T1562.011",
+      "name": "Spoof Security Alerting",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1562/011",
+      "relation": {
+        "technique": "T1562"
       }
     },
     "T1137.004": {
@@ -5433,6 +5664,7 @@
       "relation": {
         "subTechniques": [
           "T1585.002",
+          "T1585.003",
           "T1585.001"
         ],
         "tactics": [
@@ -5546,6 +5778,18 @@
         "technique": "T1055"
       }
     },
+    "T1650": {
+      "id": "T1650",
+      "name": "Acquire Access",
+      "isSubTechnique": false,
+      "url": "https://attack.mitre.org/techniques/T1650",
+      "relation": {
+        "subTechniques": [],
+        "tactics": [
+          "TA0042"
+        ]
+      }
+    },
     "T1601.001": {
       "id": "T1601.001",
       "name": "Patch System Image",
@@ -5578,6 +5822,15 @@
         "tactics": [
           "TA0009"
         ]
+      }
+    },
+    "T1070.009": {
+      "id": "T1070.009",
+      "name": "Clear Persistence",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1070/009",
+      "relation": {
+        "technique": "T1070"
       }
     },
     "T1555.004": {
@@ -5679,6 +5932,15 @@
         "technique": "T1556"
       }
     },
+    "T1027.010": {
+      "id": "T1027.010",
+      "name": "Command Obfuscation",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1027/010",
+      "relation": {
+        "technique": "T1027"
+      }
+    },
     "T1070.004": {
       "id": "T1070.004",
       "name": "File Deletion",
@@ -5713,6 +5975,27 @@
         "tactics": [
           "TA0040"
         ]
+      }
+    },
+    "T1651": {
+      "id": "T1651",
+      "name": "Cloud Administration Command",
+      "isSubTechnique": false,
+      "url": "https://attack.mitre.org/techniques/T1651",
+      "relation": {
+        "subTechniques": [],
+        "tactics": [
+          "TA0002"
+        ]
+      }
+    },
+    "T1546.016": {
+      "id": "T1546.016",
+      "name": "Installer Packages",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1546/016",
+      "relation": {
+        "technique": "T1546"
       }
     },
     "T1595.001": {
@@ -5783,6 +6066,15 @@
       "url": "https://attack.mitre.org/techniques/T1027/002",
       "relation": {
         "technique": "T1027"
+      }
+    },
+    "T1584.007": {
+      "id": "T1584.007",
+      "name": "Serverless",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1584/007",
+      "relation": {
+        "technique": "T1584"
       }
     },
     "T1071.001": {
@@ -5975,6 +6267,15 @@
         "technique": "T1547"
       }
     },
+    "T1608.006": {
+      "id": "T1608.006",
+      "name": "SEO Poisoning",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1608/006",
+      "relation": {
+        "technique": "T1608"
+      }
+    },
     "T1550.002": {
       "id": "T1550.002",
       "name": "Pass the Hash",
@@ -6037,6 +6338,18 @@
         "technique": "T1588"
       }
     },
+    "T1648": {
+      "id": "T1648",
+      "name": "Serverless Execution",
+      "isSubTechnique": false,
+      "url": "https://attack.mitre.org/techniques/T1648",
+      "relation": {
+        "subTechniques": [],
+        "tactics": [
+          "TA0002"
+        ]
+      }
+    },
     "T1055.008": {
       "id": "T1055.008",
       "name": "Ptrace System Calls",
@@ -6044,6 +6357,15 @@
       "url": "https://attack.mitre.org/techniques/T1055/008",
       "relation": {
         "technique": "T1055"
+      }
+    },
+    "T1027.007": {
+      "id": "T1027.007",
+      "name": "Dynamic API Resolution",
+      "isSubTechnique": true,
+      "url": "https://attack.mitre.org/techniques/T1027/007",
+      "relation": {
+        "technique": "T1027"
       }
     },
     "T1021.001": {
@@ -6331,6 +6653,9 @@
         "subTechniques": [
           "T1556.003",
           "T1556.002",
+          "T1556.007",
+          "T1556.008",
+          "T1556.006",
           "T1556.001",
           "T1556.005",
           "T1556.004"
