@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Matrix, Tactic, TacticId, Technique, TechniqueId } from './useMitreAttack.types';
 
 
@@ -27,13 +27,13 @@ export const useMitreAttack = () => {
     };
   }, []);
 
-  const getTactics = (tacticIds: TacticId[] = []): Tactic[] => {
+  const getTactics = useCallback((tacticIds: TacticId[] = []): Tactic[] => {
     return tacticIds.length > 0 ? tacticIds.map(id => tags.tactics[id]) : Object.values(tags.tactics);
-  };
+  }, [tags.tactics]);
 
-  const getTechniques = (techniqueIds: TechniqueId[] = []): Technique[] => {
+  const getTechniques = useCallback((techniqueIds: TechniqueId[] = []): Technique[] => {
     return techniqueIds.map(id => tags.techniques[id]);
-  };
+  }, [tags.techniques]);
 
   return { getTactics, getTechniques, isLoading, error };
 };
